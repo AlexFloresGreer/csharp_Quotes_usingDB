@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+         <link rel"stylesheet" type="text/css" href="Content/style.css">
+         <meta charset="UTF-8">
+         <title>Quotes</title>
+    </head>
+    <body>
+    <div class="container">
+        <h1>Quotes!</h1>
+        <form action="/process" method="post">
+            <label for="name">Name</label>
+            <input type="text" name="name">
+            <label for="quote">Quote</label>
+            <textarea name="quote"></textarea>
+            <br>
+            <input type="submit" value="Add Quote">
+        </form>
+        <p><a href="/quotes"><button>See All Quotes</button></a></p>
+    </div>   
+    </body>
+</html>
